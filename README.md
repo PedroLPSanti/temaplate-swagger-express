@@ -1,6 +1,6 @@
 # node-serverless-template
 
-A project to help build a serveless(AWS Lambda) Rest API using: NodeJS, Express and A PostgreSQL.
+A project to help build a Rest API using: NodeJS, Express with swagger.
 
 ---
 ## Requirements
