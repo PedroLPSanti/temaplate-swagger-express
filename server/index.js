@@ -14,7 +14,7 @@ var swaggerOptions = {
             title: "Customer API",
             description: "Customer API Information",
             contact: {
-                name: "Amazing Developer"
+                name: "Pedro"
             },
             servers: ["http://localhost:3000"]
         }
@@ -36,5 +36,6 @@ consign()
   .into(app);
 
 app.listen(port, function () {
-    console.log("Example app listening at http://localhost:" + port);
+    console.log("Listening at http://localhost:" + port);
+    console.log("Swagger at http://localhost:" + port + "/api-docs");
 });
