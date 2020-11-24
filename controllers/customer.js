@@ -1,8 +1,6 @@
 
 const get = async (req, res) => {
-  const { search = '', size = 10, page = 0 } = {
-    ...req.queryStringParameters,
-  };
+  console.log(req.query);
   try {
     return res.status(200).send("FUNCIONOU");
   } catch (e) {
@@ -10,6 +8,16 @@ const get = async (req, res) => {
   }
 };
 
+const post = async (req, res) => {
+  try {
+    return res.status(200).send(req.body);
+  } catch (e) {
+    return res.status(200).send(e);
+  }
+};
+
+
 module.exports = {
-  get
+  get,
+  post
 };
