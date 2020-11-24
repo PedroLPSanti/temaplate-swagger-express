@@ -1,4 +1,4 @@
-# node-serverless-template
+# temaplate-swagger-express
 
 A project to help build a Rest API using: NodeJS, Express with swagger.
 
